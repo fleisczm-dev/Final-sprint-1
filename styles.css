@@ -1,0 +1,105 @@
+fieldset {
+    width: 75%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: .5em;
+    margin: 0 auto
+}
+
+.wrapper {
+    width: 940px;
+    margin: 20px auto;
+    border: 2px solid #3e773e;
+    background-color: #fff;
+}
+
+label {
+    float: left;
+    width: 15em;
+    text-align: right
+}
+
+input,
+select,
+textarea {
+    width: 15em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em
+}
+
+input:required {
+    border: 2px solid blue
+}
+
+input[type="submit"] {
+    width: 7em;
+    background-color: red;
+    color: white;
+    margin-left: 4em
+}
+
+h1 {
+    text-align: center;
+    font-family: "lobster", cursive;
+    font-size: 1.5em;
+    font-weight: normal
+}
+
+.courses {
+    border: none
+}
+
+aside {
+    border-left: 1px solid green
+}
+body {
+    background-color: #ffe6e6; /* light red background */
+    font-family: Arial, sans-serif;
+}
+
+/* The centered box that holds everything */
+.content-box {
+    border: 3px solid #800000; /* dark red border */
+    border-radius: 12px;
+    background-color: #fff;
+    width: 80%;
+    margin: 30px auto; /* centers horizontally */
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Center the header image */
+header img {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Make everything inside the box align nicely */
+.contact-section {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    text-align: left; /* form labels line up */
+    margin: 20px auto;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Make the iframe responsive */
+iframe {
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* Center footer text */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
